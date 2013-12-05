@@ -1,0 +1,12 @@
+We can't use ACLOCAL_FLAGS in the .cygport because of AC_CONFIG_SUBDIRS(zlib)
+
+--- origsrc/id3lib-3.8.3/Makefile.am	2009-08-23 11:41:46.650619700 -0500
++++ src/id3lib-3.8.3/Makefile.am	2009-08-23 11:54:55.598674700 -0500
+@@ -11,6 +11,7 @@
+ 
+ # require automake 1.5
+ AUTOMAKE_OPTIONS = 1.5
++ACLOCAL_AMFLAGS = -I m4
+ 
+ EXTRA_DIST =                    \
+         HISTORY                 \

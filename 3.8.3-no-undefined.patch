@@ -1,0 +1,8 @@
+--- origsrc/id3lib-3.8.3/src/Makefile.am	2009-08-23 11:39:27.357241300 -0500
++++ src/id3lib-3.8.3/src/Makefile.am	2009-08-23 11:40:07.991612200 -0500
+@@ -80,4 +80,5 @@ libid3_la_LDFLAGS = \
+   -lz \
+   -version-info $(LT_VERSION) \
+   -release $(LT_RELEASE) \
++  -no-undefined \
+   -export-dynamic
