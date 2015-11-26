@@ -3,7 +3,7 @@ inherit cross
 
 NAME="mingw64-x86_64-id3lib"
 VERSION=3.8.3
-RELEASE=1
+RELEASE=2
 CATEGORY="Devel"
 SUMMARY="ID3v1/v1.1/v2 tag library for Win64 toolchain"
 DESCRIPTION="id3lib is a software library for manipulating ID3v1/v1.1 and
